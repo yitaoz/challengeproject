@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChallengeTableViewController.h
 //  ChallengeTable
 //
 //  Created by Yitao Zhang on 4/11/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ChallengeTableViewController : UITableViewController
 
 @end
-

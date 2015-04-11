@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E33F032A-29EE-4F05-AEAC-4AA045BC0481</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChallengeTable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71543FD7CAC2743C14EAA42DD302C8CD10B19C44</key>
+		<string>https://github.com/yitaoz/challengeproject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChallengeTable.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71543FD7CAC2743C14EAA42DD302C8CD10B19C44</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yitaoz/challengeproject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71543FD7CAC2743C14EAA42DD302C8CD10B19C44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71543FD7CAC2743C14EAA42DD302C8CD10B19C44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChallengeTable</string>
+		</dict>
+	</array>
+</dict>
+</plist>

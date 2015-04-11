@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B529D1971AD9309C006597E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B529D1961AD9309C006597E9 /* main.m */; };
 		B529D19A1AD9309C006597E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B529D1991AD9309C006597E9 /* AppDelegate.m */; };
-		B529D19D1AD9309C006597E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B529D19C1AD9309C006597E9 /* ViewController.m */; };
 		B529D1A01AD9309C006597E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B529D19E1AD9309C006597E9 /* Main.storyboard */; };
 		B529D1A21AD9309C006597E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B529D1A11AD9309C006597E9 /* Images.xcassets */; };
 		B529D1A51AD9309C006597E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B529D1A31AD9309C006597E9 /* LaunchScreen.xib */; };
 		B529D1B11AD9309C006597E9 /* ChallengeTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B529D1B01AD9309C006597E9 /* ChallengeTableTests.m */; };
+		B529D1BC1AD9311D006597E9 /* ChallengeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B529D1BB1AD9311D006597E9 /* ChallengeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		B529D1961AD9309C006597E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B529D1981AD9309C006597E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B529D1991AD9309C006597E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B529D19B1AD9309C006597E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B529D19C1AD9309C006597E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B529D19F1AD9309C006597E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B529D1A11AD9309C006597E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B529D1A41AD9309C006597E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B529D1AA1AD9309C006597E9 /* ChallengeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B529D1AF1AD9309C006597E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B529D1B01AD9309C006597E9 /* ChallengeTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeTableTests.m; sourceTree = "<group>"; };
+		B529D1BA1AD9311D006597E9 /* ChallengeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeTableViewController.h; sourceTree = SOURCE_ROOT; };
+		B529D1BB1AD9311D006597E9 /* ChallengeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeTableViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				B529D1981AD9309C006597E9 /* AppDelegate.h */,
 				B529D1991AD9309C006597E9 /* AppDelegate.m */,
-				B529D19B1AD9309C006597E9 /* ViewController.h */,
-				B529D19C1AD9309C006597E9 /* ViewController.m */,
+				B529D1BA1AD9311D006597E9 /* ChallengeTableViewController.h */,
+				B529D1BB1AD9311D006597E9 /* ChallengeTableViewController.m */,
 				B529D19E1AD9309C006597E9 /* Main.storyboard */,
 				B529D1A11AD9309C006597E9 /* Images.xcassets */,
 				B529D1A31AD9309C006597E9 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B529D19D1AD9309C006597E9 /* ViewController.m in Sources */,
+				B529D1BC1AD9311D006597E9 /* ChallengeTableViewController.m in Sources */,
 				B529D19A1AD9309C006597E9 /* AppDelegate.m in Sources */,
 				B529D1971AD9309C006597E9 /* main.m in Sources */,
 			);
